@@ -1,10 +1,16 @@
+//importing classes from lib folder
 const Intern = require("./lib/Intern");
 const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
+
+//importing inquirer and js from src folders
 const generateHTML = require("./src/generateHTML");
 const inquirer = require('inquirer');
+
+//Array to store customer answers from inquirer
 var ans = [];
 
+//Questions array for Manager
 quesManager = [
     {
         type: 'input',
@@ -33,6 +39,7 @@ quesManager = [
         choices: ['Engineer','Intern','Finnish']
     }]
 
+    //Questions array for Inter
 quesIntern = [
     {
         type: 'input',
@@ -61,6 +68,7 @@ quesIntern = [
         choices: ['Engineer','Intern','Finnish']
     }]
 
+//Question array for Engineer
 quesEngineer = [
     {
         type: 'input',
@@ -89,6 +97,7 @@ quesEngineer = [
         choices: ['Engineer','Intern','Finnish']
     }]
 
+// get input from customer using inquirer
 getInput = (questions, choice) => {
     if (choice === 'Finnish') {
         console.log("HTML Created!!!")
@@ -125,8 +134,10 @@ getInput = (questions, choice) => {
     }
 }
 
+// initialize choice as Manager is always first choice
 let choice = "Manager";
 
+// start program
 getInput(quesManager, choice);
 
 
