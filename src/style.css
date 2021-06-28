@@ -1,0 +1,49 @@
+header {
+    background-color:red;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+    color:white;
+}
+
+.cardTitle {
+   background-color: rgb(87, 85, 255);
+   color:white;
+   padding:.8rem;
+}
+
+.cardTitle  p{
+  margin:0;
+}
+
+.card {
+    width: 200px;
+    padding:0px;
+
+}
+.bodyCardTxt {
+  background-color: white;
+  padding:.5rem;
+  font-size: .7rem;
+}
+
+.bodyCardTxt {
+  margin:0;
+  border:solid lightgray .05rem;
+}
+
+
+.cardText{
+    background-color: rgb(238, 238, 238);
+    height: 200px;
+  }
+  
+.cardContainer {
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.icons {
+  padding-right:30px;
+  width:10px;
+}

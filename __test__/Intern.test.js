@@ -1,6 +1,6 @@
 const Intern = require("../lib/Intern")
 
-test('creates an Inter object', () => {
+test('creates an Intern object', () => {
     const inter = new Intern('Zohaib',1,'s.zohaibali3@gmail.com',"UoT");
   
     expect(inter.name).toBe('Zohaib');
@@ -9,7 +9,7 @@ test('creates an Inter object', () => {
     expect(inter.school).toBe('UoT');
   });
 
-  test('creates an Inter object', () => {
+  test('test Intern object methods', () => {
     const inter = new Intern('Zohaib',1,'s.zohaibali3@gmail.com',"UoT");
   
     expect(inter.getId()).toEqual(1);

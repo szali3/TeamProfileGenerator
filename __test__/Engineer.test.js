@@ -9,7 +9,7 @@ test('creates an Engineer object', () => {
     expect(engineer.github).toBe('szali3');
   });
 
-  test('Test Engineer object methods', () => {
+  test('test Engineer object methods', () => {
     const engineer = new Engineer('Zohaib',1,'s.zohaibali3@gmail.com','szali3');
   
     expect(engineer.getId()).toEqual(1);

@@ -9,7 +9,7 @@ test('creates an Manager object', () => {
     expect(manager.officeNumber).toEqual(11);
   });
 
-  test('creates an Manager object', () => {
+  test('test Manager object methods', () => {
     const manager = new Manager('Zohaib',1,'s.zohaibali3@gmail.com',11);
   
     expect(manager.getId()).toEqual(1);
